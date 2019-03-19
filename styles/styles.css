@@ -1,0 +1,81 @@
+/**
+ * one-off styles for prioritization form
+ *
+ */
+/* li[data-hide-tab='true'], div[data-hide-tab='true'] {display:none !important;}*/
+body {
+  padding-top: 70px;
+}
+.form-horizontal .control-label {
+  text-align: left;
+}
+.col-sm-3 {
+  max-width: 75%;
+}
+.alpaca-form-buttons-container {
+  padding-right: 25%;
+}
+.has-error .control-label {
+  color: #737373;
+}
+.has-error .form-control {
+  border-color: #737373;
+}
+.form-group {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.pull-left {
+  padding-left: 5%;
+}
+.pull-right {
+  padding-right: 5%;
+}
+.alpaca-form-buttons-container {
+  padding-right: 5%;
+}
+label {
+  margin-bottom: 15px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  opacity: 100;
+  cursor: default;
+}
+#instr {
+  opacity: 0;
+}
+.instructions {
+  font-size: 15px;
+  color: #525252;
+}
+.alpaca-wizard-nav {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.alpaca-wizard-progress-bar {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.table-responsive {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.alpaca-array-toolbar-action {
+  display: none;
+}
+.alpaca-field-table>legend {
+  display: inline;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #737373;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 0px;
+  width: 90%;
+}
+.alpaca-field-table table tr td .alpaca-field .form-control {
+  resize: vertical;
+}
